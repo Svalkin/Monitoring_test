@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.746 s <<< FAILURE! - in TestSuite
+MonitoringDemoCheck(test.Tests.MonitoringTest)  Time elapsed: 10.762 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: /html/body/div[1]/div[1]/div[1]/div/section/div/div/aside/a/div/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'SZB-WSM-0000411', ip: 'fe80:0:0:0:1826:7a0b:21e3:9e43%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1m/cwtxx6952xx...}, goog:chromeOptions: {debuggerAddress: localhost:54583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54583/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a7dddae4c95c430dec59d2162a52102
+	at test.Tests.MonitoringTest.MonitoringDemoCheck(MonitoringTest.java:13)
+
+JournalingDemoCheck(test.Tests.JournalingTest)  Time elapsed: 10.554 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: /html/body/div/div[1]/div[1]/div/section/div/div/aside/a/div/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'SZB-WSM-0000411', ip: 'fe80:0:0:0:1826:7a0b:21e3:9e43%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1m/cwtxx6952xx...}, goog:chromeOptions: {debuggerAddress: localhost:54673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54673/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 333f60fd51d4c59437250fca7eb64d33
+	at test.Tests.JournalingTest.JournalingDemoCheck(JournalingTest.java:14)
+

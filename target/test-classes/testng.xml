@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="/Users/user/IdeaProjects/Monitoring">
+        <classes>
+            <class name="test.Tests.MonitoringTest">
+            </class>
+            <class name="test.Tests.JournalingTest">
+            </class>
+        </classes>
+    </test>
+</suite>

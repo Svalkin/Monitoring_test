@@ -1,0 +1,9 @@
+test/TestBase/JournalingTestBase.class
+test/Tests/JournalingTest.class
+Page/CheckDemo/CheckDemoMonitoringPage.class
+Page/Main/MainJournaling.class
+Page/Main/MainMonitoring.class
+Page/CheckDemo/CheckDemoJournalingPage.class
+BasePage/BasePage.class
+test/TestBase/MonitoringTestBase.class
+test/Tests/MonitoringTest.class

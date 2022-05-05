@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/user/IdeaProjects/Monitoring(failed)" verbose="0">
+    <classes>
+      <class name="test.Tests.JournalingTest">
+        <methods>
+          <include name="JournalingDemoCheck"/>
+          <include name="finish"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.Tests.JournalingTest -->
+      <class name="test.Tests.MonitoringTest">
+        <methods>
+          <include name="MonitoringDemoCheck"/>
+          <include name="finish"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.Tests.MonitoringTest -->
+    </classes>
+  </test> <!-- /Users/user/IdeaProjects/Monitoring(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
